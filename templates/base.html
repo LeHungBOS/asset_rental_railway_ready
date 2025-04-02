@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Trang chủ{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="p-6 bg-gray-100 text-gray-800">
+    <div class="container mx-auto">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
